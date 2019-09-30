@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Quotes</title>
+    <h1>Quotes:</h1>
+</head>
+<body>
+<ul>
+    {% if quote %}
+        <li>{{quote}}</li>
+    {% else %}
+        {% for q in quotes%}
+        <li>{{q}}</li>
+        {% endfor %}
+    {% endif %}
+</ul>
+</body>
+</html>
+
