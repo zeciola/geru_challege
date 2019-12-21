@@ -13,7 +13,7 @@ requires = [
     'pyramid==1.10.4',
     'pyramid==1.10.4',
     'pyramid-debugtoolbar==4.5',
-    'waitress==1.3.1',
+    'waitress==1.4.0',
     'alembic==1.2.0',
     'pyramid-retry==2.0',
     'pyramid-tm==2.2.1',
